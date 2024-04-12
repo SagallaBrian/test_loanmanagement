@@ -1,0 +1,21 @@
+.form-check-input:checked {
+  /* Change the color of the checkbox when it's checked */
+  background-color: #2a3958; /* Example color */
+  border-color: #2a3958;
+}
+
+.form-check-input-focus-border {
+  border-width: 0px !important;
+}
+
+.form-check-input:focus {
+  box-shadow: none;
+}
+.form-check .form-check-input {
+  float: left;
+  margin-right: 5px;
+  margin-left: 2px;
+}
+.form-check {
+  padding-left: 0px;
+}

@@ -1,0 +1,14 @@
+@import url("bootstrap/dist/css/bootstrap.min.css");
+
+.btn-dark {
+  background-color: #2a3958 !important;
+  border-color: #2a3958 !important;
+}
+
+.bg-dark {
+  background-color: #2a3958 !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

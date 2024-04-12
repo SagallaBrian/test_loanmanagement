@@ -1,0 +1,23 @@
+.tdc {
+  background-color: #eef0f4 !important;
+}
+
+table.mytable > tbody > tr > td {
+  padding: 11px !important;
+  vertical-align: middle;
+}
+/* 
+.table-bordered.mytable > :not(caption) > * > * {
+  border-width: 2px;
+} */
+
+.btnbas {
+  border-color: #6f80a0;
+  background-color: #6f80a0;
+  color: #fefefe;
+}
+.btnbas:hover {
+  border-color: #425067;
+  background-color: #425067;
+  color: #fefefe;
+}

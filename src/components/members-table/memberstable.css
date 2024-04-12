@@ -1,0 +1,36 @@
+/* Using !important */
+.custom-table-striped > tbody > tr:nth-of-type(2n + 1) > * {
+  background-color: #f9f9fb !important; /* Light gray background for odd rows */
+}
+
+.custom-table-striped > tbody > tr:nth-of-type(2n) > * {
+  background-color: #ffffff !important; /* Lighter gray background for even rows */
+}
+
+.form-check-input:checked {
+  /* Change the color of the checkbox when it's checked */
+  background-color: #2a3958; /* Example color */
+  border-color: #2a3958;
+}
+
+.selected-row {
+  background-color: rgba(0, 0, 0, 0.5); /* Translucent black overlay */
+}
+
+.custom-table-striped > tbody > tr:nth-of-type(2n) .selected-row {
+  background-color: rgba(0, 0, 0, 0.49) !important;
+}
+
+.custom-table-striped > tbody > tr:nth-of-type(2n + 1) .selected-row {
+  background-color: rgba(0, 0, 0, 0.49) !important;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Translucent black overlay */
+  z-index: 1;
+}
